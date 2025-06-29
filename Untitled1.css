@@ -1,0 +1,250 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Quicksand', sans-serif;
+  color: #333;
+  background-color: #fff8f2;
+  line-height: 1.6;
+}
+
+header {
+    height: 150px;
+  background-color: #fff0e6;
+  padding: 20px 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 5px solid white;
+  font-size: 22px;
+}
+
+#logo {
+  font-family: 'Playfair Display', serif;
+  font-size: 28px;
+  font-weight: bold;
+  line-height: 1;
+  color: #a0522d;
+}
+#logo img{
+    vertical-align: middle;
+}
+    
+.bar{
+    font-family: monospace;
+    background-color: #fff0e6;
+  padding: 20px 50px;
+  display: flex;
+  align-items: justify;
+  justify-content: center;
+  border-bottom: 5px solid white;
+  font-size: 25px;
+
+}
+    nav ul {
+  list-style: none;
+  display: flex;
+  gap: 45px;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #7a4d2c;
+  font-weight: bold;
+  transition: color 0.3s;
+}
+
+nav ul li a:hover {
+  color: #d94f4f;
+}
+
+
+.hero {
+  background: url('7.jpg') no-repeat center center/cover ;
+    background-blend-mode: lighten;
+  color: white;
+  text-align: center;
+  padding: 120px 20px;
+    border-bottom: 5px solid white;
+
+}
+
+.hero h1 {
+  font-size: 48px;
+  font-family: 'Playfair Display', serif;
+  margin-bottom: 10px;
+}
+
+.hero h2 {
+  font-size: 28px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 12px 24px;
+  background-color: hsl(25, 80%, 16%);
+  color: white;
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: bold;
+  transition: background-color 0.3s;
+}
+
+.btn:hover {
+  background-color: #d94f4f;
+}
+#reservation {
+  padding: 20px 20px;
+  text-align: center;
+    background-color: #fff4ee;
+    border-bottom: 5px solid white;
+}
+.grid1 h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 30px;
+  color: #a0522d;
+  text-align: center;
+}
+.grid1 p {
+  font-family: 'Playfair Display', serif;
+  font-size: 25px;
+  color: #a0522d;
+}
+.grid1 {
+  margin: 0 auto;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+.item3 {
+  display: flex;
+  flex-direction: column;  
+  align-items: center;
+  justify-content: center;
+  padding: 10px 10px;
+  gap: 30px;
+    background-color: #fff4ee;
+}
+.item3 a{
+  color: #a0522d;
+text-decoration: none;
+}
+.item3 a:hover{
+  color: #a0522d;
+    text-decoration: none;
+}
+
+.feature-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 80px 60px;
+  gap: 40px;
+  background-color: #fff4ee;
+}
+
+.reverse {
+  flex-direction: row-reverse;
+  background-color: #fef0e6;
+}
+
+
+.feature-text h1 {
+  font-family: 'Playfair Display', serif;
+  font-weight: bold; 
+  font-size: 33px;
+  margin-bottom: 15px;
+  color: #7a4d2c;
+}
+
+.feature-text p {
+  color: #4a3b2e;
+  font-size: 27px;
+}
+
+.feature-section img {
+  width: 55%;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+}
+#image2{
+    width: 150px;
+    box-shadow: none;
+}
+
+.menu-section {
+  padding: 60px 60px;
+  text-align: center;
+  background-color: #fef0e6;
+}
+
+.menu-section h2 {
+  font-family: 'Playfair Display', serif;
+  font-size: 36px;
+  color: #a0522d;
+  padding: 10px;
+}
+.menu-item a{
+color:lab(39.96% 22.84 36.46);
+text-decoration: none;
+}
+.menu-item a:hover{
+    color:black;
+    text-decoration: none;
+}
+.menu-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.menu-item {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+}
+
+
+
+.contact-section {
+  padding: 60px 20px;
+  text-align: center;
+  background-color: #fdf4f0;
+}
+
+.contact-section h2 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  font-family: 'Playfair Display', serif;
+  color: #7a4d2c;
+}
+.whatsapp-float {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 100;
+  cursor: pointer;
+  transition: transform 0.3s ease;
+}
+.whatsapp-float:hover {
+  transform: scale(1.1);
+}
+.whatsapp-float img {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  box-shadow: 0 4px 12px rgba(0,0,0,0.3);
+}
+
+footer {
+  background-color: #e6dcd2;
+  text-align: center;
+  padding: 20px;
+  font-size: 14px;
+  color: #5c4033;
+}
