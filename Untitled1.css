@@ -248,3 +248,48 @@ footer {
   font-size: 14px;
   color: #5c4033;
 }
+@media screen and (max-width: 768px) {
+  body {
+    padding: 10px;
+  }
+
+  .bar nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0;
+  }
+
+  .bar nav ul li {
+    margin: 10px 0;
+  }
+
+  .bar nav ul li a {
+    font-size: 16px;
+    padding: 5px 10px;
+  }
+
+  header img {
+    width: 60px;
+  }
+
+  h1, h2, h3 {
+    font-size: 1.5rem;
+  }
+
+  .btn {
+    width: 90%;
+    font-size: 16px;
+  }
+
+  /* Optional: fix nav font for smaller screens */
+  nav ul li a {
+    font-size: 14px;
+  }
+
+  /* Prevent text overlap in hero section */
+  .hero h1, .hero p {
+    text-align: center;
+    padding: 10px;
+  }
+}
