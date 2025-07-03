@@ -16,7 +16,7 @@ body {
 .header-brand {
      max-width: 900px;
   margin: 0 auto 40px;
-  padding: 20px;
+  padding: 10px;
   background-color: #fff4ee;
   border-radius: 12px;
   box-shadow: 0 4px 10px rgba(0,0,0,0.06);
@@ -25,7 +25,9 @@ align-self: center;
   align-items: center;
   justify-content: center;
 height: 150px;
+  gap: 10px;
 }
+
 
 .brand-logo {
   width: 150px;
@@ -169,4 +171,67 @@ footer {
   font-size: 14px;
   border-radius: 12px;
   margin-top: 60px;
+}
+ @media screen and (max-width: 600px) {
+  .header-brand {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    padding: 15px;
+    gap: 5px;
+    text-align: center;
+  }
+
+  .brand-logo {
+    width: 90px;
+    margin: 0 auto 5px;
+  }
+
+  .menu-title {
+    font-size: 26px;
+    line-height: 1.2;
+  }
+
+  .menu-nav {
+    flex-direction: column;
+    gap: 12px;
+    padding: 15px 10px;
+    text-align: center;
+  }
+
+  .menu-nav a {
+    font-size: 18px;
+  }
+
+  .menu-section li {
+    margin-bottom: 20px;
+    padding-bottom: 12px;
+  }
+
+  .menu-item-line {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 4px;
+  }
+
+  .menu-item-line strong {
+    font-size: 18px;
+    font-weight: bold;
+    color: #7a4d2c;
+  }
+
+  .price {
+    font-size: 15px;
+    font-weight: bold;
+    color: #a0522d;
+    align-self: flex-end;
+  }
+
+  .menu-section small {
+    font-size: 13px;
+    font-style: italic;
+    color: #5c4033;
+  }
 }
