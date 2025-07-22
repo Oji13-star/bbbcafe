@@ -23,6 +23,7 @@ body {
 }
 
 header {
+      height: 150px;
   background-color: #fff0e6;
   padding: 20px 50px;
   flex-direction: column;
