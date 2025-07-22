@@ -26,7 +26,6 @@ header {
       height: 150px;
   background-color: #fff0e6;
   padding: 20px 50px;
-  flex-direction: column;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -53,13 +52,7 @@ header {
   flex-direction: column;
   align-items: center;
   border-bottom: 5px solid white;
-  font-size: 18px;
-  position: sticky;
-top: 0;
-z-index: 1000; 
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
-
-
+  font-size: 18px; 
 
 }
     nav ul {
